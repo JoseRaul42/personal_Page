@@ -39,23 +39,23 @@ export const projects: Project[] = [
 		techStack: ['Python', 'SQL', 'PostgreSQL', 'FastAPI'],
 		githubUrl: 'https://github.com/yourusername/sql-optimizer'
 	},
-	{
-		name: 'Data Quality Framework',
-		description: 'Automated data validation and quality monitoring system for data warehouses.',
-		techStack: ['Python', 'Great Expectations', 'dbt', 'Snowflake'],
-		githubUrl: 'https://github.com/yourusername/data-quality'
-	},
-	{
-		name: 'Log Aggregation Service',
-		description: 'Distributed log collection and analysis system using osquery and custom parsers.',
-		techStack: ['Go', 'osquery', 'Elasticsearch', 'Kafka'],
-		githubUrl: 'https://github.com/yourusername/log-aggregator'
-	},
-	{
-		name: 'ML Model Deployment Pipeline',
-		description:
-			'CI/CD pipeline for machine learning models with automated testing and versioning.',
-		techStack: ['Python', 'MLflow', 'Docker', 'Kubernetes'],
-		githubUrl: 'https://github.com/yourusername/ml-pipeline'
-	}
+	// {
+	// 	name: 'Data Quality Framework',
+	// 	description: 'Automated data validation and quality monitoring system for data warehouses.',
+	// 	techStack: ['Python', 'Great Expectations', 'dbt', 'Snowflake'],
+	// 	githubUrl: 'https://github.com/yourusername/data-quality'
+	// },
+	// {
+	// 	name: 'Log Aggregation Service',
+	// 	description: 'Distributed log collection and analysis system using osquery and custom parsers.',
+	// 	techStack: ['Go', 'osquery', 'Elasticsearch', 'Kafka'],
+	// 	githubUrl: 'https://github.com/yourusername/log-aggregator'
+	// },
+	// {
+	// 	name: 'ML Model Deployment Pipeline',
+	// 	description:
+	// 		'CI/CD pipeline for machine learning models with automated testing and versioning.',
+	// 	techStack: ['Python', 'MLflow', 'Docker', 'Kubernetes'],
+	// 	githubUrl: 'https://github.com/yourusername/ml-pipeline'
+	// }
 ];

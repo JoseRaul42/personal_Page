@@ -113,7 +113,7 @@ export const GET: RequestHandler = async () => {
 				name: 'Coding Focus',
 				description: 'Deep focus music for programming sessions',
 				imageUrl: 'https://via.placeholder.com/300x300/ff6b35/ffffff?text=Coding+Focus',
-				spotifyUrl: 'https://open.spotify.com/playlist/example',
+				spotifyUrl: 'https://open.spotify.com/embed/playlist/1nKtByrMkHKxK3e38n33SH',
 				trackCount: 50
 			},
 			{

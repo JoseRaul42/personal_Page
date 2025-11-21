@@ -5,6 +5,8 @@
 	import { projects } from '$lib/config/projects';
 	import { gifs } from '$lib/config/gifs';
 	import { techStack } from '$lib/config/stack';
+	
+	
 
 	interface Playlist {
 		id: string;
@@ -26,9 +28,9 @@
 	 * Find video IDs in YouTube URLs: https://www.youtube.com/watch?v=[VIDEO_ID]
 	 */
 	const musicVideos = [
-		{ id: 'jfKfPfyJRdk', label: 'Lo-fi Hip Hop' },
-		{ id: '5qap5aO4i9A', label: 'Chill Synthwave' },
-		{ id: 'lTRiuFIWV54', label: 'Ambient Focus' }
+		{ id: 'wW7WgqF4yoo', label: 'Wildflower' },
+		{ id: '3Q18F--zZ-I', label: 'My little brown book' },
+		{ id: 'SyoJ5e63-SA', label: 'Echo Sax No. 4' }
 	];
 	let selectedVideoIndex = $state(0);
 
@@ -107,14 +109,13 @@
 				class="animate-on-scroll mb-8 text-xl text-[#a0a0a0] sm:text-2xl"
 				in:fly={{ y: 30, duration: 800, delay: 400 }}
 			>
-				Technically-focused Data Engineer & Builder of Thoughtful Systems
+				Data Conversion and Integration Developer
 			</p>
 			<p
 				class="animate-on-scroll mx-auto mb-12 max-w-2xl text-lg text-[#606060]"
 				in:fly={{ y: 30, duration: 800, delay: 600 }}
 			>
-				Crafting elegant solutions for complex data challenges. Passionate about building scalable
-				pipelines, optimizing performance, and turning data into actionable insights.
+				My experience has been built through software implentations in upstream accounting systems, document management systems, and EHR conversions.
 			</p>
 			<div
 				class="animate-on-scroll flex flex-wrap justify-center gap-4"
@@ -159,21 +160,19 @@
 				<!-- Left: Text content -->
 				<div class="space-y-6">
 					<p class="text-lg leading-relaxed text-[#a0a0a0]">
-						I'm a data engineer who believes in the power of well-architected systems and clean,
-						maintainable code. My work focuses on building robust data pipelines that scale,
-						perform, and deliver value.
+						
+    Full stack engineer adept at working with SQL, C#, .NET, PowerShell,
+    Node.js, and Azure DevOps. I’ve successfully delivered scalable data
+    solutions and backend software application support. My experience has been
+    built through delivering complex, data-driven projects
 					</p>
-					<p class="text-lg leading-relaxed text-[#a0a0a0]">
-						With expertise spanning from SQL optimization to distributed systems, I thrive at the
-						intersection of data engineering and software craftsmanship. Every pipeline is an
-						opportunity to solve complex problems elegantly.
-					</p>
+			
 
 					<!-- TODO: Customize these skills based on your experience -->
 					<div class="pt-4">
 						<h3 class="mb-4 text-xl font-semibold text-[#ff6b35]">Core Competencies</h3>
 						<div class="flex flex-wrap gap-3">
-							{#each ['Data Engineering', 'ETL/ELT', 'SQL Optimization', '.NET Development', 'Python', 'Cloud Architecture', 'System Design', 'Performance Tuning'] as skill (skill)}
+							{#each ['Data Engineering', 'ETL/ELT', 'SQL Optimization', '.NET Development'] as skill (skill)}
 								<span
 									class="rounded-full border border-[#ff6b35]/30 bg-[#0a0c0f] px-4 py-2 text-sm font-medium text-[#ff6b35] transition-colors hover:bg-[#ff6b35]/10"
 								>
@@ -192,17 +191,10 @@
 						<div class="space-y-8">
 							<!-- TODO: Update these stats with your actual metrics -->
 							<div class="border-l-4 border-[#ff6b35] pl-6">
-								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">5+</div>
+								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">4+</div>
 								<div class="text-[#a0a0a0]">Years of Experience</div>
 							</div>
-							<div class="border-l-4 border-[#ff6b35] pl-6">
-								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">100+</div>
-								<div class="text-[#a0a0a0]">Data Pipelines Built</div>
-							</div>
-							<div class="border-l-4 border-[#ff6b35] pl-6">
-								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">10TB+</div>
-								<div class="text-[#a0a0a0]">Data Processed Daily</div>
-							</div>
+						
 						</div>
 					</div>
 				</div>
@@ -216,7 +208,7 @@
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-6xl">
 			<h2 class="mb-4 text-center text-4xl font-bold text-[#ff6b35] sm:text-5xl">
-				Featured Projects
+				Personal Projects
 			</h2>
 			<p class="mx-auto mb-12 max-w-2xl text-center text-[#a0a0a0]">
 				A selection of projects showcasing my work in data engineering, system design, and software
@@ -269,14 +261,14 @@
 </section>
 
 <!-- Spotify Playlists Section -->
-<section id="playlists" class="animate-on-scroll py-20">
+<!-- <section id="playlists" class="animate-on-scroll py-20">
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-6xl">
 			<h2 class="mb-4 text-center text-4xl font-bold text-[#ff6b35] sm:text-5xl">
-				Coding Playlists
+				Favorite Playlists
 			</h2>
 			<p class="mx-auto mb-12 max-w-2xl text-center text-[#a0a0a0]">
-				Curated music for deep focus, debugging sessions, and late-night coding marathons.
+				A selection of playlists that I enjoy listening to.
 			</p>
 
 			{#if playlistsLoading}
@@ -327,17 +319,17 @@
 			{/if}
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- YouTube Music Player Section -->
 <section id="music" class="animate-on-scroll bg-[#0a0c0f]/50 py-20">
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-4xl">
 			<h2 class="mb-4 text-center text-4xl font-bold text-[#ff6b35] sm:text-5xl">
-				Background Music
+				Music
 			</h2>
 			<p class="mb-8 text-center text-[#a0a0a0]">
-				Ambient sounds for coding and thinking. Choose your vibe:
+				A selection of music that I enjoy listening to.
 			</p>
 
 			<!-- Video selector buttons -->
@@ -364,7 +356,7 @@
 </section>
 
 <!-- Favorite GIFs Section -->
-<section id="gifs" class="animate-on-scroll py-20">
+<!-- <section id="gifs" class="animate-on-scroll py-20">
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-6xl">
 			<h2 class="mb-4 text-center text-4xl font-bold text-[#ff6b35] sm:text-5xl">
@@ -392,7 +384,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- Tech Stack Section -->
 <section id="stack" class="animate-on-scroll bg-[#0a0c0f]/50 py-20">
@@ -400,7 +392,7 @@
 		<div class="mx-auto max-w-6xl">
 			<h2 class="mb-4 text-center text-4xl font-bold text-[#ff6b35] sm:text-5xl">Tech Stack</h2>
 			<p class="mx-auto mb-12 max-w-2xl text-center text-[#a0a0a0]">
-				Tools and technologies I use to build robust data systems.
+				Tools and technologies I enjoy working with.
 			</p>
 
 			<div class="space-y-12">

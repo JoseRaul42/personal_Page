@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import ShaderBackground from '$lib/components/ShaderBackground.svelte';
 
 	let { children } = $props();
 
@@ -11,7 +12,7 @@
 		{ id: 'hero', label: 'Home' },
 		{ id: 'about', label: 'About' },
 		{ id: 'projects', label: 'Projects' },
-		{ id: 'playlists', label: 'Music' },
+		{ id: 'music', label: 'Music' },
 		{ id: 'stack', label: 'Stack' }
 	];
 
@@ -28,6 +29,9 @@
 	<link rel="icon" href={favicon} />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </svelte:head>
+
+<!-- GPU-accelerated WebGL shader background -->
+<ShaderBackground />
 
 <div class="flex min-h-screen flex-col">
 	<!-- Header Navigation -->

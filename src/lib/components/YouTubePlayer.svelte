@@ -16,7 +16,7 @@
 	let {
 		videoId,
 		title = 'YouTube video player',
-		autoplay = false,
+		autoplay = true,
 		muted = false
 	}: Props = $props();
 
