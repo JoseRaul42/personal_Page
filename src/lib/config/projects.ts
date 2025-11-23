@@ -12,6 +12,7 @@ export interface Project {
 	description: string;
 	techStack: string[];
 	githubUrl: string;
+	websiteUrl?: string;
 	featured?: boolean;
 }
 
@@ -21,6 +22,7 @@ export const projects: Project[] = [
 		description:
 			'Website that is meant to show users just how much personal data is collected the very moment they visit a website using basic web broswer APIs.',
 		techStack: ['SvelteKit', 'TypeScript', 'Node.js'],
+		websiteUrl: 'https://sword-of-damocles.vercel.app/',
 		githubUrl: 'https://github.com/JoseRaul42/sword_of_damocles',
 		featured: true
 	},
@@ -29,6 +31,7 @@ export const projects: Project[] = [
 		description:
 			'Live data visualizations dashboard of economic indicators and Upstream spot prices charted to display long-term trends.',
 		techStack: ['SvelteKit', 'TypeScript', 'Node.js'],
+		websiteUrl: 'https://economic-dashboard-chi.vercel.app/',
 		githubUrl: 'https://github.com/JoseRaul42/economic_Dashboard',
 		featured: true
 	},
@@ -37,6 +40,7 @@ export const projects: Project[] = [
 		description:
 			'This was my first deployed website. This was a very fun personal project where I attempted to create space themed Myspace personal website.',
 		techStack: ['SvelteKit', 'Node.js'],
+		websiteUrl: 'https://myspace-topaz-chi.vercel.app/',
 		githubUrl: 'https://github.com/JoseRaul42/myspace'
 	},
 	// {
