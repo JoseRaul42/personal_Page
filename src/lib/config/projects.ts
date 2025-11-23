@@ -36,7 +36,7 @@ export const projects: Project[] = [
 		name: 'First Personal Website',
 		description:
 			'This was my first deployed website. This was a very fun personal project where I attempted to create space themed Myspace personal website.',
-		techStack: ['Python', 'SQL', 'PostgreSQL', 'FastAPI'],
+		techStack: ['SvelteKit', 'Node.js'],
 		githubUrl: 'https://github.com/JoseRaul42/myspace'
 	},
 	// {
