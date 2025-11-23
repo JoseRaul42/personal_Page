@@ -161,12 +161,14 @@
 				<div class="space-y-6">
 					<p class="text-lg leading-relaxed text-[#a0a0a0]">
 						
-    Full stack engineer adept at working with SQL, C#, .NET, PowerShell,
+    I'm a self taught engineer adept at working with SQL, C#, .NET, PowerShell,
     Node.js, and Azure DevOps. I’ve successfully delivered scalable data
     solutions and backend software application support. My experience has been
     built through delivering complex, data-driven projects
 					</p>
-			
+					<p class="text-lg leading-relaxed text-[#a0a0a0]">
+						 In my free time, I like to explore use cases for locally hosted LLMs on consumer-grade hardware for privacy focused personal AI projects. I also enjoy discovering new music and playing Arc Raiders.
+					</p>
 
 					<!-- TODO: Customize these skills based on your experience -->
 					<div class="pt-4">
@@ -191,7 +193,7 @@
 						<div class="space-y-8">
 							<!-- TODO: Update these stats with your actual metrics -->
 							<div class="border-l-4 border-[#ff6b35] pl-6">
-								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">4+</div>
+								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">5+</div>
 								<div class="text-[#a0a0a0]">Years of Experience</div>
 							</div>
 						
@@ -211,8 +213,7 @@
 				Personal Projects
 			</h2>
 			<p class="mx-auto mb-12 max-w-2xl text-center text-[#a0a0a0]">
-				A selection of projects showcasing my work in data engineering, system design, and software
-				development.
+				Personal projects built with some of my favorite development tools.
 			</p>
 
 			<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

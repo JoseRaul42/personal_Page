@@ -118,7 +118,7 @@
 				<div class="flex gap-6">
 					<!-- TODO: Add your social links here -->
 					<a
-						href="https://github.com"
+						href="https://github.com/JoseRaul42"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="text-[#a0a0a0] transition-colors hover:text-[#ff6b35]"
@@ -133,7 +133,7 @@
 						</svg>
 					</a>
 					<a
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/jose-valois-29a120213"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="text-[#a0a0a0] transition-colors hover:text-[#ff6b35]"

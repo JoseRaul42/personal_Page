@@ -17,27 +17,27 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
-		name: 'Data Pipeline Orchestrator',
+		name: 'Cyber security inspired project',
 		description:
-			'Scalable ETL pipeline framework for processing large-scale data with fault tolerance and monitoring.',
-		techStack: ['Python', 'Apache Airflow', 'PostgreSQL', 'Docker'],
-		githubUrl: 'https://github.com/yourusername/data-pipeline',
+			'Website that is meant to show users just how much personal data is collected the very moment they visit a website using basic web broswer APIs.',
+		techStack: ['SvelteKit', 'TypeScript', 'Node.js'],
+		githubUrl: 'https://github.com/JoseRaul42/sword_of_damocles',
 		featured: true
 	},
 	{
 		name: 'Real-time Analytics Dashboard',
 		description:
-			'Live data visualization platform for streaming analytics with WebSocket integration.',
-		techStack: ['C#', '.NET', 'SignalR', 'React', 'SQL Server'],
-		githubUrl: 'https://github.com/yourusername/analytics-dashboard',
+			'Live data visualizations dashboard of economic indicators and Upstream spot prices charted to display long-term trends.',
+		techStack: ['SvelteKit', 'TypeScript', 'Node.js'],
+		githubUrl: 'https://github.com/JoseRaul42/economic_Dashboard',
 		featured: true
 	},
 	{
-		name: 'SQL Query Optimizer',
+		name: 'First Personal Website',
 		description:
-			'Tool for analyzing and optimizing complex SQL queries with performance recommendations.',
+			'This was my first deployed website. This was a very fun personal project where I attempted to create space themed Myspace personal website.',
 		techStack: ['Python', 'SQL', 'PostgreSQL', 'FastAPI'],
-		githubUrl: 'https://github.com/yourusername/sql-optimizer'
+		githubUrl: 'https://github.com/JoseRaul42/myspace'
 	},
 	// {
 	// 	name: 'Data Quality Framework',
