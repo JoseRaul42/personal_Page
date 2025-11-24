@@ -161,7 +161,7 @@
 				<div class="space-y-6">
 					<p class="text-lg leading-relaxed text-[#a0a0a0]">
 						
-    I'm a self taught engineer adept at working with SQL, C#, .NET, PowerShell,
+    I'm a self taught developer adept at working with SQL, C#, .NET, PowerShell,
     Node.js, and Azure DevOps. I’ve successfully delivered scalable data
     solutions and backend software application support. My experience has been
     built through delivering complex, data-driven projects
