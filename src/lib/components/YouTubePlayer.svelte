@@ -23,7 +23,7 @@
 	// Construct YouTube embed URL with privacy-enhanced domain
 	const embedUrl = $derived(() => {
 		const params = new URLSearchParams({
-			autoplay: autoplay ? '1' : '0',
+			autoplay: autoplay ? '1' : '1',
 			mute: muted ? '1' : '0',
 			rel: '0', // Don't show related videos from other channels
 			modestbranding: '1' // Minimal YouTube branding

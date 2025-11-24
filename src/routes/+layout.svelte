@@ -13,7 +13,7 @@
 		{ id: 'about', label: 'About' },
 		{ id: 'projects', label: 'Projects' },
 		{ id: 'music', label: 'Music' },
-		{ id: 'stack', label: 'Stack' }
+		{ id: 'stack', label: 'Tech' }
 	];
 
 	function scrollToSection(sectionId: string) {
