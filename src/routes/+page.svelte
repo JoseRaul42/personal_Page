@@ -193,7 +193,7 @@
 						<div class="space-y-8">
 							<!-- TODO: Update these stats with your actual metrics -->
 							<div class="border-l-4 border-[#ff6b35] pl-6">
-								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">5+</div>
+								<div class="mb-2 text-4xl font-bold text-[#ff6b35]">3+</div>
 								<div class="text-[#a0a0a0]">Years of Experience</div>
 							</div>
 						
