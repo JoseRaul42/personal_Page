@@ -109,13 +109,13 @@
 				class="animate-on-scroll mb-8 text-xl text-[#a0a0a0] sm:text-2xl"
 				in:fly={{ y: 30, duration: 800, delay: 400 }}
 			>
-				Data Conversion and Integration Developer
+				Developer
 			</p>
 			<p
 				class="animate-on-scroll mx-auto mb-12 max-w-2xl text-lg text-[#606060]"
 				in:fly={{ y: 30, duration: 800, delay: 600 }}
 			>
-				My experience has been built through software implentations in upstream accounting systems, document management systems, and EHR conversions.
+				Welcome to my page.
 			</p>
 			<div
 				class="animate-on-scroll flex flex-wrap justify-center gap-4"
