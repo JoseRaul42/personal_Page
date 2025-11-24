@@ -28,9 +28,10 @@
 	 * Find video IDs in YouTube URLs: https://www.youtube.com/watch?v=[VIDEO_ID]
 	 */
 	const musicVideos = [
+		{ id: '1V_xRb0x9aw', label: 'Clint Eastwood' },
 		{ id: 'wW7WgqF4yoo', label: 'Wildflower' },
-		{ id: '3Q18F--zZ-I', label: 'My little brown book' },
-		{ id: 'SyoJ5e63-SA', label: 'Echo Sax No. 4' }
+		{ id: '3Q18F--zZ-I', label: 'My little brown book' }
+		
 	];
 	let selectedVideoIndex = $state(0);
 
