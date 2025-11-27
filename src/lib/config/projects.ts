@@ -31,7 +31,7 @@ export const projects: Project[] = [
 		description:
 			'Live data visualizations dashboard of economic indicators and Upstream spot prices charted to display long-term trends.',
 		techStack: ['SvelteKit', 'TypeScript', 'Node.js'],
-		websiteUrl: 'https://economic-dashboard-git-main-yerrs-projects.vercel.app/',
+		websiteUrl: 'https://economic-dashboard-cqpyz39dl-yerrs-projects.vercel.app/',
 		githubUrl: 'https://github.com/JoseRaul42/economic_Dashboard',
 		featured: true
 	},
