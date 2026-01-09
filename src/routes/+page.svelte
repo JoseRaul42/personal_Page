@@ -80,7 +80,7 @@
 	<title>Jose Valois</title>
 	<meta
 		name="description"
-		content="Personal website of a technically focused data engineer building thoughtful systems."
+		content="My portfolio and personal website."
 	/>
 </svelte:head>
 
